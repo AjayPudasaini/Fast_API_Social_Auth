@@ -3,8 +3,8 @@ import httpx
 
 app = FastAPI()
 
-CLIENT_ID = "865lyjoi3swu3f"
-CLIENT_SECRET = "LkDPZliBGOCiOkEq"
+CLIENT_ID = "YOUR_LINKEDIN_CLIENT_ID"
+CLIENT_SECRET = "YOUR_LINKEDIN_CLIENT_SECRET"
 REDIRECT_URI = "http://127.0.0.1:8008/login/linkedin/callback/"
 AUTHORIZATION_URL = "https://www.linkedin.com/oauth/v2/authorization"
 TOKEN_URL = "https://www.linkedin.com/oauth/v2/accessToken"

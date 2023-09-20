@@ -3,8 +3,8 @@ import httpx
 
 app = FastAPI()
 
-CLIENT_ID = "427959550989-sm2frk4ap9moibpvk7sq7gbjorfa7il5.apps.googleusercontent.com"
-CLIENT_SECRET = "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"
+CLIENT_ID = "YOUR_GOOGLE_CLIENT_ID"
+CLIENT_SECRET = "YOUR_GOOGLE_CLIENT_SECRET"
 REDIRECT_URI = "http://127.0.0.1:8007/auth/"
 AUTHORIZATION_URL = "https://accounts.google.com/o/oauth2/auth"
 TOKEN_URL = "https://oauth2.googleapis.com/token"
